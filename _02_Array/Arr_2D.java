@@ -38,7 +38,6 @@ public class Arr_2D {
         int[][] TD={{1,2,3},{2,3},{3,4,5,6}};
         for (int row = 0; row < TD.length ; row++) {
             System.out.print("[");
-
             for (int col = 0; col <TD[row].length ; col++) {
                 System.out.print(TD[row][col]);
             }
