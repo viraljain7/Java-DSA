@@ -4,6 +4,10 @@ import java.util.Arrays;
 
 public class Arr {
     public static void main(String[] args) {
+
+
+
+        int [] newArr={1,2,3,4};
         int[] arr = new int[5];
         arr[0] = 1;
         arr[2] = 4;
@@ -17,6 +21,14 @@ public class Arr {
         }
         
         System.out.println(Arrays.toString(arr));
-        System.out.println(arr);
+//        System.out.println(arr);
+
+
+        String[] str= new String[5];
+        str[0]="vira";
+        str[4]="jain";
+        for (String idx : str) {
+            System.out.print(idx );
+        }
     }
 }
