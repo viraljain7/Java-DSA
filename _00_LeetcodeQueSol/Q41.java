@@ -24,7 +24,7 @@ public class Q41 {
             if(nums[idx]!=idx+1)return idx+1;
         }
 
-        return nums.length;
+        return nums.length+1;
     }
     public static void swap(int[] arr, int i, int j) {
         int temp = arr[j];
