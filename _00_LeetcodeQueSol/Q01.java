@@ -1,5 +1,7 @@
 package _00_LeetcodeQueSol;
 
+import java.util.HashMap;
+
 public class Q01 {
     public static void main(String[] args) {
 
@@ -19,7 +21,7 @@ public class Q01 {
         return finalRes;
     }
 
-    public int[] twoSum(int[] nums, int target) {
+    public int[] twoSumMethod(int[] nums, int target) {
         HashMap<Integer,Integer> mp=new HashMap<>();
         for(int i=0 ;i<nums.length;i++){
             int n=nums[i];
